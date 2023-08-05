@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(22, 22, 24);
+}
+
+ul.navbar-nav > li > a{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;}
+
+    ul.navbar-nav > li > a{
+}
+ul.navbar-nav > li.nav-item.dropdown > ul.dropdown-menu > li > a{
+    letter-spacing: 0.15rem;
+}
+
+.dropdown-item{
+    color: rgba(233,236,239,255);
+}
+
+.carousel-inner{
+    font:bold;
+    
+}
+
+.list-unstyled li {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.list-unstyled li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.card{
+    min-height: 445px;
+}
+
+.accordion.item{
+    background-color: rgb(22, 22, 24);
+    color: rgba(233,236,239,255);
+}
+
+.accordion-body{
+background-color: rgb(22, 22, 24);
+color: rgba(233,236,239,255);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgba(33,37,41,255);
+    color: rgba(233,236,239,255);
+}
+
+.collapsed{
+    background-color: rgba(33,37,41,255);
+    color: rgba(233,236,239,255);
+}
+
+.accordion-button:not(.collapsed)::before{
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+.photo-gallery{
+    color: rgba(233,236,239,255);
+    background-color: rgb(22, 22, 24);
+
+}
+
+.photos{
+    padding: 20px;
+}
+
+.item{
+    padding-bottom: 30px;
+}
+
+.list-group-item{
+    background-color: rgba(33,37,41,255);
+    color: rgba(233,236,239,255);
+}
+
+
+footer{
+    padding: 2rem;
+    color: rgba(233,236,239,255);
+    background-color: rgba(33,37,41,255);
+    margin-top: 2rem;
+}
+
+footer a{
+    color: #666666;
+    transition: color 0.4s ease-in;
+    padding: 0.2rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:whitesmoke;
+}
+
+footer p{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+section{
+    margin-top: 2rem;
+}
+.futer{
+    margin-top: 350px;
+}
+
+p{
+    border: solid 3px yellow;
+}
+
+a:active{
+    background-color: yellow;
+    color: red;
+    text-transform: uppercase;
+
+}
